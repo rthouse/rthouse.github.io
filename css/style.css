@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-image: url("../images/plant.JPG");
+}
+
+.item {
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 10px grey;
+    width: 18%;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    text-align: center;
+}
